@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Mahmoud Ahmed Ali | Portfolio</title>
+    <title>Mohammed Mahmoud Muslim | Portfolio</title>
     
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./script.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            600: '#16a34a',
+                            700: '#15803d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -59,7 +75,7 @@
                         <i class="fas fa-envelope text-lg"></i> Email
                     </a>
                     <a href="https://wa.me/201019728272" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-600 transition text-sm">
-                        <i class="fas fa-phone text-lg"></i> 01019728272
+                        <i class="fas fa-phone text-lg"></i> +20 1019728272
                     </a>
                 </div>
 
@@ -316,7 +332,7 @@
                 <div class="p-6 space-y-3">
                     <div>
                         <span class="text-xs uppercase tracking-wider font-semibold text-primary-600 dark:text-primary-400">Programming</span>
-                        <h3 class="font-bold text-lg mt-0.5">Programming Fundamentals | Functions in Python</h3>
+                        <h3 class="font-bold text-lg mt-0.5">Programming Fundamentals - Functions in Python</h3>
                     </div>
                     <!-- Description -->
                     <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
@@ -340,39 +356,10 @@
 
     <!-- Footer -->
     <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-900 py-8 mt-12 text-center text-sm text-slate-500">
-        <p>© 2026 Mohammed Mahmoud Ahmed Ali. All Rights Reserved.</p>
+        <p>© 2026 Mohammed Mahmoud Muslim. All Rights Reserved.</p>
     </footer>
 
     <!-- JavaScript for Theme Toggle -->
-    <script>
-        const themeToggleBtn = document.getElementById('theme-toggle');
-        const themeToggleIcon = document.getElementById('theme-toggle-icon');
-
-        // Check layout theme preference
-        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-            themeToggleIcon.classList.remove('fa-moon');
-            themeToggleIcon.classList.add('fa-sun');
-        } else {
-            document.documentElement.classList.remove('dark');
-            themeToggleIcon.classList.remove('fa-sun');
-            themeToggleIcon.classList.add('fa-moon');
-        }
-
-        themeToggleBtn.addEventListener('click', function() {
-            // Toggle Icon
-            themeToggleIcon.classList.toggle('fa-moon');
-            themeToggleIcon.classList.toggle('fa-sun');
-
-            // Toggle Class & Storage Configuration
-            if (document.documentElement.classList.contains('dark')) {
-                document.documentElement.classList.remove('dark');
-                localStorage.setItem('color-theme', 'light');
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('color-theme', 'dark');
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

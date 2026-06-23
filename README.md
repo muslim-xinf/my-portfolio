@@ -1,10 +1,10 @@
-# 💡 Mohammed Mahmoud Ahmed Ali
+# 💡 Mohammed Mahmoud Muslim
 
 # Basic Info
 
 **Electronics & Communication Engineer | Passionate Educator & Digital Learning Advocate**
 
-[LinkedIn](https://www.linkedin.com/in/mohammedmuslim22/) | 📧 mohammedma7722@gmail.com | 📞 01019728272
+[LinkedIn](https://www.linkedin.com/in/mohammedmuslim22/) | 📧 mohammedma7722@gmail.com | 📞 +20 1019728272
 
 > *"Empowering the next generation of engineers through accessible education, hands-on labs, and shared experiences."*
 > 
@@ -19,9 +19,6 @@ My passion for educational community building truly materialized when I founded 
 
 Through Learnera, we facilitate the exchange of both technical and non-technical knowledge. It has grown into a vibrant platform where engineering experiences are shared freely, helping students bridge the gap between theoretical university lectures and practical, real-world understanding.
 
-![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%207.png)
-
-![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%201.png)
 
 ### 🔬 Lab Instruction & Mentorship
 
@@ -32,11 +29,6 @@ My journey from a passionate trainee in 2023 to stepping into leadership roles h
 - Progressing from a dedicated committee member to the Head of the Digital IC Design Committee, I now lead our educational initiatives.
 - I actively oversee technical projects and serve as a hands-on mentor for team members, guiding them through the intricacies of RTL design, FPGA prototyping, and verification workflows.
 
-![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%202.png)
-
-![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%206.png)
-
-![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%203.png)
 
 **Chipions '26 Program | Technical Mentor & Lab Supervisor** *(May 2024 – Feb 2025)*
 
@@ -50,7 +42,6 @@ My journey from a passionate trainee in 2023 to stepping into leadership roles h
 
 *A highlight from the 'LEVEL UP' event, featuring the EED Society team providing insights on excelling within the ECE department and charting a successful career path.*
 
-![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%204.png)
 
 ### 📚 Tutoring Domains & Structured Subjects
 
@@ -93,6 +84,3 @@ Over the years, I have organized and delivered comprehensive study materials, vi
         
         [[https://drive.google.com/file/d/1DvkaR7Iu0UrUvp5hjpJs43KGU_i4CmuU/view?usp=sharing](https://drive.google.com/file/d/1DvkaR7Iu0UrUvp5hjpJs43KGU_i4CmuU/view?usp=sharing)](https://drive.google.com/file/d/1DvkaR7Iu0UrUvp5hjpJs43KGU_i4CmuU/view?usp=sharing)
         
-    - Notebook
-        
-        ![image.png](%F0%9F%92%A1%20Mohammed%20Mahmoud%20Ahmed%20Ali/image%205.png)
