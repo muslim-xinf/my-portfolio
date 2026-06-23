@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Mahmoud Ahmed Ali | Portfolio</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300 font-sans">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-primary-600 dark:text-primary-500">M. Muslim</a>
+            
+            <div class="flex items-center gap-6">
+                <div class="hidden md:flex items-center gap-6 font-medium text-sm">
+                    <a href="#about" class="hover:text-primary-600 dark:hover:text-primary-400 transition">About</a>
+                    <a href="#journey" class="hover:text-primary-600 dark:hover:text-primary-400 transition">Learnera</a>
+                    <a href="#mentorship" class="hover:text-primary-600 dark:hover:text-primary-400 transition">Mentorship</a>
+                    <a href="#domains" class="hover:text-primary-600 dark:hover:text-primary-400 transition">Tutoring</a>
+                    <a href="#resources" class="hover:text-primary-600 dark:hover:text-primary-400 transition">Resources</a>
+                </div>
+                
+                <!-- Dark Mode Toggle Button -->
+                <button id="theme-toggle" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:ring-2 hover:ring-slate-200 dark:hover:ring-slate-700 transition">
+                    <i id="theme-toggle-icon" class="fas fa-moon text-slate-600 dark:text-yellow-400"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <div class="grid md:grid-cols-3 gap-12 items-center">
+            <div class="md:col-span-2 space-y-6">
+                <span class="px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100 dark:bg-primary-900/40 dark:text-primary-400 rounded-full uppercase">
+                    Electronics & Communication Engineer
+                </span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight hover:text-primary-600 transition duration-300">
+                    Mohammed Mahmoud Muslim
+                </h1>
+                <p class="text-lg text-slate-600 dark:text-slate-400 font-medium">
+                    Passionate Educator & Digital Learning Advocate
+                </p>
+                
+                <!-- Contact Links -->
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="https://www.linkedin.com/in/mohammedmuslim22/" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-600 transition text-sm">
+                        <i class="fab fa-linkedin text-lg"></i> LinkedIn
+                    </a>
+                    <a href="mailto:mohammedma7722@gmail.com" class="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-600 transition text-sm">
+                        <i class="fas fa-envelope text-lg"></i> Email
+                    </a>
+                    <a href="https://wa.me/201019728272" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-600 transition text-sm">
+                        <i class="fas fa-phone text-lg"></i> 01019728272
+                    </a>
+                </div>
+
+                <blockquote class="border-l-4 border-primary-600 pl-4 italic text-slate-600 dark:text-slate-300 bg-slate-100/50 dark:bg-slate-800/30 py-2 pr-2 rounded-r-lg">
+                    "Empowering the next generation of engineers through accessible education, hands-on labs, and shared experiences."
+                </blockquote>
+
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Welcome to my educational portfolio! While my academic roots and technical expertise lie deeply in ASIC and FPGA development as a Digital IC Designer, my true passion is the digital learning journey. This space is dedicated to my mission of structuring knowledge, mentoring peers, and guiding students through complex engineering concepts.
+                </p>
+            </div>
+            
+            <div class="flex justify-center">
+                <div class="relative min-w-80 h-64 rounded-2xl overflow-hidden shadow-xl ring-4 ring-primary-600/20">
+                    <img src="./assets/profile.png" alt="Education and Engineering Profile Placeholder" class="object-cover w-full h-full" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-slate-200 dark:border-slate-800 max-w-6xl mx-auto">
+
+    <!-- Learnera Journey -->
+    <section id="journey" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-4">
+                <div class="flex items-center gap-2 text-primary-600 dark:text-primary-400 font-semibold uppercase tracking-wider text-sm">
+                    <i class="fas fa-seedling"></i> Founding Story
+                </div>
+                <!-- Clickable Title -->
+                <a href="https://www.youtube.com/@LearnEra25" target="_blank" class="inline-block group">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition flex items-center gap-2">
+                        The Learnera Journey 
+                        <i class="fas fa-external-link-alt text-sm opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                    </h2>
+                </a>
+                <br>
+                <span class="inline-block text-xs font-semibold px-2.5 py-1 bg-slate-200 dark:bg-slate-800 rounded text-slate-600 dark:text-slate-400">May 2023 – Present</span>
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed pt-2">
+                    My passion for educational community building truly materialized when I founded <strong>Learnera</strong> during my university studies. Recognizing the challenging nature of our coursework, I wanted to create a collaborative space specifically designed to help FOE Alex students navigate their academic paths.
+                </p>
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Through Learnera, we facilitate the exchange of both technical and non-technical knowledge. It has grown into a vibrant platform where engineering experiences are shared freely, helping students bridge the gap between theoretical university lectures and practical, real-world understanding.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 gap-4">
+                <!-- Clickable Image 1 (Main Channel) -->
+                <a href="https://www.youtube.com/@LearnEra25" target="_blank" class="block overflow-hidden rounded-xl group shadow-md hover:shadow-xl transition duration-300">
+                    <img src="./assets/learnera.png" alt="Students Collaboration 1" class="object-cover h-46 w-full group-hover:scale-102 transition duration-300">
+                </a>
+                <!-- Clickable Image 2 (Playlists) -->
+                <a href="https://www.youtube.com/@LearnEra25/playlists" target="_blank" class="block overflow-hidden rounded-xl group shadow-md hover:shadow-xl transition duration-300">
+                    <img src="./assets/channel.png" alt="Students Collaboration 2" class="object-cover h-54 w-full group-hover:scale-102 transition duration-300">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-slate-200 dark:border-slate-800 max-w-6xl mx-auto">
+
+    <!-- Lab Instruction & Mentorship -->
+    <section id="mentorship" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+        <div class="max-w-3xl">
+            <div class="flex items-center gap-2 text-primary-600 dark:text-primary-400 font-semibold uppercase tracking-wider text-sm mb-2">
+                <i class="fas fa-flask"></i> Hands-on Experience
+            </div>
+            <h2 class="text-3xl font-bold tracking-tight mb-4">Lab Instruction & Mentorship</h2>
+            <p class="text-slate-600 dark:text-slate-400">
+                My journey from a passionate trainee in 2023 to stepping into leadership roles has profoundly shaped my approach to lab instruction and technical mentorship. I believe in hands-on learning and fostering environments where students feel comfortable experimenting and making mistakes.
+            </p>
+        </div>
+
+        <!-- Mentorship Cards Grid -->
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Card 1 (IEEE SSCS) -->
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700/50 flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400 text-xl">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <!-- Clickable Header Area -->
+                    <a href="https://www.facebook.com/sscsalex" target="_blank" class="block group">
+                        <h3 class="font-bold text-lg leading-tight text-slate-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition flex items-center gap-1.5">
+                            IEEE SSCS ALEXSC
+                            <i class="fas fa-external-link-alt text-xs opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                        </h3>
+                        <p class="text-xs font-semibold text-primary-600 dark:text-primary-400 mt-1">Head of Digital IC Design Committee</p>
+                        <p class="text-xs text-slate-400 mt-0.5">Feb 2025 – Jan 2026</p>
+                    </a>
+                    <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc list-inside">
+                        <li>Lead educational initiatives and technical project oversight.</li>
+                        <li>Hands-on mentorship through RTL design, FPGA prototyping, and verification.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 2 (Chipions '26) -->
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700/50 flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400 text-xl">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <!-- Clickable Header Area -->
+                    <a href="https://www.facebook.com/sscsalex" target="_blank" class="block group">
+                        <h3 class="font-bold text-lg leading-tight text-slate-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition flex items-center gap-1.5">
+                            Chipions '26 Program
+                            <i class="fas fa-external-link-alt text-xs opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                        </h3>
+                        <p class="text-xs font-semibold text-primary-600 dark:text-primary-400 mt-1">Technical Mentor & Lab Supervisor</p>
+                        <p class="text-xs text-slate-400 mt-0.5">May 2024 – Feb 2025</p>
+                    </a>
+                    <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc list-inside">
+                        <li>Supervised laboratory sessions utilizing industry-grade Vivado and Questa Sim workflows.</li>
+                        <li>Guided complex designs including MIPS processors and UART implementations on Zybo Z7.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 3 (EED Society) -->
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700/50 flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400 text-xl">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <!-- Clickable Header Area -->
+                    <a href="https://www.facebook.com/eedteam" target="_blank" class="block group">
+                        <h3 class="font-bold text-lg leading-tight text-slate-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition flex items-center gap-1.5">
+                            EED Society
+                            <i class="fas fa-external-link-alt text-xs opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                        </h3>
+                        <p class="text-xs font-semibold text-primary-600 dark:text-primary-400 mt-1">AC Head</p>
+                        <p class="text-xs text-slate-400 mt-0.5">Jan 2023 – Dec 2023</p>
+                    </a>
+                    <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc list-inside">
+                        <li>Mentored undergraduate students on functional academic success strategies.</li>
+                        <li>Fostered cross-functional teamwork within complex engineering terms.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mentorship Image Showcase -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 pt-4">
+            <img src="./assets/job-fair.png" alt="Lab session group" class="col-span-2 sm:col-span-1 rounded-xl object-cover h-52 sm:h-52 w-full shadow-sm">
+            
+            <img src="./assets/award.png" alt="Presentation event" class="rounded-xl object-cover h-36 sm:h-52 w-full shadow-sm">
+            <img src="./assets/certificate.png" alt="Presentation event" class="rounded-xl object-cover h-36 sm:h-52 w-full shadow-sm">
+        </div>
+    </section>
+
+    <hr class="border-slate-200 dark:border-slate-800 max-w-6xl mx-auto">
+
+    <!-- Tutoring Domains -->
+    <section id="domains" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+        <div class="max-w-3xl">
+            <div class="flex items-center gap-2 text-primary-600 dark:text-primary-400 font-semibold uppercase tracking-wider text-sm mb-2">
+                <i class="fas fa-book"></i> Focus Areas
+            </div>
+            <h2 class="text-3xl font-bold tracking-tight">Tutoring Domains & Structured Subjects</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Math -->
+            <div class="bg-white dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-100 dark:border-slate-800">
+                <h3 class="font-bold text-lg text-slate-900 dark:text-white flex items-center gap-2 mb-4">
+                    <i class="fas fa-calculator text-primary-600"></i> Mathematics & Statistics
+                </h3>
+                <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                    <li class="flex items-start gap-2"><strong>•</strong> Calculus & Pre-calculus</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Linear Algebra & Complex Numbers</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Discrete & Finite Math</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Probability & Statistics</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Linear Programming & Optimization</li>
+                </ul>
+            </div>
+
+            <!-- CS -->
+            <div class="bg-white dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-100 dark:border-slate-800">
+                <h3 class="font-bold text-lg text-slate-900 dark:text-white flex items-center gap-2 mb-4">
+                    <i class="fas fa-code text-primary-600"></i> Computer Science
+                </h3>
+                <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                    <li class="flex items-start gap-2"><strong>•</strong> C Programming Language</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Python Development</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Computer Networking Architectures</li>
+                </ul>
+            </div>
+
+            <!-- Engineering -->
+            <div class="bg-white dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-100 dark:border-slate-800">
+                <h3 class="font-bold text-lg text-slate-900 dark:text-white flex items-center gap-2 mb-4">
+                    <i class="fas fa-bolt text-primary-600"></i> Engineering Labs
+                </h3>
+                <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                    <li class="flex items-start gap-2"><strong>•</strong> Digital Logic & RTL Design</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Verilog & SystemVerilog Frameworks</li>
+                    <li class="flex items-start gap-2"><strong>•</strong> Computer Architecture & MIPS CPU</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-slate-200 dark:border-slate-800 max-w-6xl mx-auto">
+
+    <!-- Interactive Resource Hub -->
+    <section id="resources" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+        <div class="max-w-3xl">
+            <div class="flex items-center gap-2 text-primary-600 dark:text-primary-400 font-semibold uppercase tracking-wider text-sm mb-2">
+                <i class="fas fa-folder-open"></i> Media Hub
+            </div>
+            <h2 class="text-3xl font-bold tracking-tight">Interactive Resource Hub</h2>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-2 italic">
+                Flexible live or recorded sessions, paired with structured review notes and notebook summaries.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Resource 1 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700/50 overflow-hidden shadow-sm flex flex-col justify-between">
+            <div>
+                <!-- Thumbnail Image -->
+                <img src="./assets/calculus-thumbnail.png" alt="Calculus Derivatives Thumbnail" class="w-full h-44 object-cover">
+                
+                <div class="p-6 space-y-3">
+                    <div>
+                        <span class="text-xs uppercase tracking-wider font-semibold text-primary-600 dark:text-primary-400">Mathematics</span>
+                        <h3 class="font-bold text-lg mt-0.5">Calculus I - Basic Rules of Derivatives</h3>
+                    </div>
+                    <!-- Description -->
+                    <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                        A foundational breakdown of essential differentiation rules, core mathematical principles, and practical step-by-step problem-solving.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="px-6 pb-6 flex flex-wrap gap-3">
+                <a href="https://drive.google.com/file/d/1FtLz7iN2k4dYCSkW-GgT7gK1bRCsJZ2L/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 hover:bg-primary-600 hover:text-white transition font-medium">
+                    <i class="fas fa-video text-red-500"></i> Video Lecture
+                </a>
+                <a href="https://drive.google.com/file/d/1qf4b0F0xxv59E5Bn0P3PjBmgNosqRcVf/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 hover:bg-primary-600 hover:text-white transition font-medium">
+                    <i class="fas fa-file-pdf text-orange-500"></i> Lecture Notes
+                </a>
+            </div>
+        </div>
+
+        <!-- Resource 2 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700/50 overflow-hidden shadow-sm flex flex-col justify-between">
+            <div>
+                <!-- Thumbnail Image -->
+                <img src="./assets/python-thumbnail.png" alt="Python Functions Thumbnail" class="w-full h-44 object-cover">
+                
+                <div class="p-6 space-y-3">
+                    <div>
+                        <span class="text-xs uppercase tracking-wider font-semibold text-primary-600 dark:text-primary-400">Programming</span>
+                        <h3 class="font-bold text-lg mt-0.5">Programming Fundamentals | Functions in Python</h3>
+                    </div>
+                    <!-- Description -->
+                    <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                        An introduction to modular code design, exploring functions, scopes, arguments, and reusable return structures in clean Python.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="px-6 pb-6 flex flex-wrap gap-3">
+                <a href="https://drive.google.com/file/d/1DvkaR7Iu0UrUvp5hjpJs43KGU_i4CmuU/view?usp=sharing" target="_blank" class="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 hover:bg-primary-600 hover:text-white transition font-medium">
+                    <i class="fas fa-video text-red-500"></i> Video Lecture
+                </a>
+                <!-- Added missing Notes link placeholder to complete uniform structure -->
+                <a href="https://colab.research.google.com/drive/1IApZ-xJMYZzRXMfr-Nb0EfChRQPAuMol" target="_blank" class="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 hover:bg-primary-600 hover:text-white transition font-medium">
+                    <i class="fas fa-file-pdf text-orange-500"></i> Lecture Notes
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-900 py-8 mt-12 text-center text-sm text-slate-500">
+        <p>© 2026 Mohammed Mahmoud Ahmed Ali. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Theme Toggle -->
+    <script>
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const themeToggleIcon = document.getElementById('theme-toggle-icon');
+
+        // Check layout theme preference
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            themeToggleIcon.classList.remove('fa-moon');
+            themeToggleIcon.classList.add('fa-sun');
+        } else {
+            document.documentElement.classList.remove('dark');
+            themeToggleIcon.classList.remove('fa-sun');
+            themeToggleIcon.classList.add('fa-moon');
+        }
+
+        themeToggleBtn.addEventListener('click', function() {
+            // Toggle Icon
+            themeToggleIcon.classList.toggle('fa-moon');
+            themeToggleIcon.classList.toggle('fa-sun');
+
+            // Toggle Class & Storage Configuration
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('color-theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
+            }
+        });
+    </script>
+</body>
+</html>

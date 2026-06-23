@@ -1,0 +1,15 @@
+tailwind.config = {
+    darkMode: 'class',
+    theme: {
+        extend: {
+            colors: {
+                primary: {
+                    50: '#f0fdf4',
+                    100: '#dcfce7',
+                    600: '#16a34a',
+                    700: '#15803d',
+                }
+            }
+        }
+    }
+}
